@@ -233,10 +233,45 @@ children: [
 
 
 
-
-
 ],
+  ),
+  ListTile(
+    onTap: () {
+
+    },
+
+    title: Text('Sample Photo 1'),
+    subtitle: Text('atogory 1'),
+    leading: Icon(Icons.image, size: 32,),
+  ),
+
+
+  ListTile(
+    onTap: () {
+
+    },
+
+    title: Text('Sample Photo 2'),
+    subtitle: Text('catogory 2'),
+    leading: Icon(Icons.image, size: 32,),
+  ),
+
+  ListTile(
+    onTap: () {
+
+    },
+
+    title: Text('Sample Photo 3'),
+    subtitle: Text('catogory 3'),
+    leading: Icon(Icons.image, size: 32,),
+  ),
+  IconButton(
+    icon: Icon(Icons.download),
+    onPressed: () {
+      // Add your onPressed logic here
+    },
   )
+
 
 ],
 
